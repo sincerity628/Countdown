@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8625a;
+}
+.fontRed {
+    font-size: 4rem;
+    color: #bd3e38;
+}
+.heading {
+    margin-top: 15%;
+    margin-left: 5%;
+}
+.timer {
+    margin-top: 20px;
+    margin-left: -20%;
+}
+.theTime {
+    color: #fff;
+}
+
+.form {
+    margin-top: 100px;
+    font-size: 3rem;
+    color: #bd3e38;
+}
+input {
+    background: none;
+    font-size: 3rem;
+    color: #bd3e38;
+    outline: none;
+    width: 100px;
+    border: 0;
+    border-bottom: #bd3e38 0.3rem solid;
+}
+input:focus {
+    border-bottom: #fff 0.3rem solid;
+}
+button {
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+    outline: none;
+    background-color: transparent;
+    color: #bd3e38;
+    border: #bd3e38 solid 0.1rem;
+    border-radius: 10px;
+}
+button:hover {
+    cursor: pointer;
+    color: #fff;
+    border: #fff solid 0.1rem;
+}

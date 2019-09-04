@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A very simple CountDown</title>
+    <link rel="stylesheet" href="styles/style.css">
+    
+</head>
+<body>
+    <div class="heading fontRed">
+        <span >&lt;h1&gt;</span>
+        <span class="theTime">This is a countdown.</span>
+        <span>&lt;/h1&gt;</span>
+    </div>
+    <div class="timer fontRed">
+        <span >&lt;div id = "timer"&gt;</span>
+        <span id="timer" class="theTime">Set Time!</span>
+        <span>&lt;/div&gt;</span>
+    </div>
+    <form action="/" id="setTime" class="form">
+        <input type="text" name="setMinutes" dir="rtl" autocomplete="off">
+        <label for="setMinutes">Minutes</label>
+        <input type="text" name="setSeconds" dir="rtl" autocomplete="off">
+        <label for="setSeconds">Seconds</label>
+        <button type="submit">Countdown!</button>
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
